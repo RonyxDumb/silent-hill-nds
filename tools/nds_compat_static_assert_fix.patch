@@ -1,0 +1,10 @@
+diff --git a/nds/include/nds_compat.h b/nds/include/nds_compat.h
+--- a/nds/include/nds_compat.h
++++ b/nds/include/nds_compat.h
+@@
+-#define static_assert _Static_assert
++#ifndef __cplusplus
++#ifndef static_assert
++#define static_assert _Static_assert
++#endif
++#endif

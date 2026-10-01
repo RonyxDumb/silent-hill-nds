@@ -1,0 +1,10 @@
+build/
+*.elf
+*.nds
+*.map
+nitrofs/*
+!nitrofs/.gitkeep
+silent_hill.elf
+silent_hill.map
+silent_hill.nds
+
